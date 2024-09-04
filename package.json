@@ -1,0 +1,29 @@
+{
+  "name": "html-contract",
+  "version": "0.0.2",
+  "description": "Web3 smart contracts containing HTML web apps/pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechnicallyWeb3/html-contract.git"
+  },
+  "keywords": [
+    "solidity"
+  ],
+  "author": "Technically Web3",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TechnicallyWeb3/html-contract/issues"
+  },
+  "homepage": "https://github.com/TechnicallyWeb3/html-contract#readme",
+  "dependencies": {
+    "@tw3/solidity": "^0.0.10"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.10"
+  }
+}

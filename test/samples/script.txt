@@ -1,0 +1,9 @@
+let document = {};
+// Function to change the text content of the paragraph
+function changeText() {
+    const contentElement = document.getElementById('content');
+    contentElement.textContent = 'The text has been changed!';
+}
+
+// Adding an event listener to the button to call changeText when clicked
+document.getElementById('changeTextButton').addEventListener('click', changeText);

@@ -26,7 +26,7 @@ describe("Web", function () {
 
   describe("Root file adding", function () {
     it("Should set /index.html", async function () {
-      const pathToFile = path.resolve(__dirname, 'samples', 'index.html');
+      const pathToFile = path.resolve(__dirname, 'samples', '40kb.txt');
       const html = fs.readFileSync(pathToFile, 'utf8');
       const { web } = await loadFixture(deployWeb);
       const contractPath = "/index.html";
